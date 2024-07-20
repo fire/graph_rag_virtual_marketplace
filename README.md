@@ -18,6 +18,8 @@ pip3 install git+https://github.com/s106916/graphrag@json_fix
 # Resume from an earlier snapshot
 # python -m graphrag.index --root . --resume 20240712-031618
 python -m graphrag.index --root .
+# Tune prompts for better results
+# python -m graphrag.prompt_tune --root . --no-entity-types
 ```
 
 ## Global SearchExample
