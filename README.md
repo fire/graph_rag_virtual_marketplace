@@ -14,6 +14,7 @@ ollama serve
 scoop install python
 # Install microsoft visual studio on the pc.
 pip3 install git+https://github.com/s106916/graphrag@json_fix
+# python -m graphrag.index --root . --init
 # Resume from an earlier snapshot
 # python -m graphrag.index --root . --resume 20240712-031618
 python -m graphrag.index --root .
