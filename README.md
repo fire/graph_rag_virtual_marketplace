@@ -1,5 +1,7 @@
 # README
 
+This is a database of items from a store captioned by a llm.
+
 ## Install
 
 Be in the parent directory of this repository.
